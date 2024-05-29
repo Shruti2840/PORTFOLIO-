@@ -1,0 +1,316 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section styles */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #282c34;
+}
+
+/* About styles */
+#about p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Projects styles */
+#projects {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#projects h2 {
+  margin-top: 0;
+}
+
+#projects div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+#projects .project {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#projects .project h3 {
+  margin-top: 0;
+}
+
+#projects .project p {
+  font-size: 16px;
+}
+
+
+/* Contact.css */
+
+/* Contact section styles */
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Section styles */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #282c34;
+}
+
+/* Contact section styles */
+
+/* App.css */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Section styles */
+section {
+  padding: 40px 20px;
+  margin: 20px 0;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #282c34;
+}
+
+
+
+/* Contact section styles */
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+
+.contact__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.contact__form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact__input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact__button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact__button:hover {
+  background-color: #3e4551;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .contact {
+    padding: 30px 15px;
+  }
+
+  .contact__input {
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 14px;
+  }
+
+  .contact__button {
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 20px 10px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .contact {
+    padding: 20px 10px;
+  }
+
+  .contact__input {
+    padding: 8px;
+    margin: 6px 0;
+    font-size: 14px;
+  }
+
+  .contact__button {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Responsive styles */
+
+
+
+
+/* Footer styles */
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
